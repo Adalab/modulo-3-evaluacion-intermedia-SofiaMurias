@@ -11,6 +11,8 @@
 }
 
 .title-list {
+  display: flex;
+  justify-content: center;
 }
 
 .list-pokemon {
@@ -32,4 +34,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(212, 248, 251);
+  &--name {
+    text-transform: capitalize;
+  }
+  &--img {
+    width: 80%;
+  }
+  &--type {
+    background-color: rgb(147, 149, 149);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+  }
 }
