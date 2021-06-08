@@ -2,3 +2,34 @@
   width: 100px;
   height: 100vh;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: rgb(28, 187, 192);
+}
+
+.title-list {
+}
+
+.list-pokemon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-list {
+  width: 150px;
+  margin-right: 15px;
+  margin-top: 15px;
+  border: 1px rgb(151, 144, 144) solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

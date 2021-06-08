@@ -3,10 +3,11 @@ import "../stylesheet/App.scss";
 
 const Pokemon = (props) => {
   return (
-    <div className="cards-list">
-      <img className="img-pokemon" src={props.url} />
-      <h3 className="name-pokemon"> {props.name}</h3>
-    </div>
+    <article className="cards-list">
+      <img className="cards-list--img" src={props.url} />
+      <h3 className="cards-list--name"> {props.name}</h3>
+      <p className="cards-list--type"> {props.types}</p>
+    </article>
   );
 };
 
